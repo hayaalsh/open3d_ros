@@ -1,0 +1,9 @@
+<launch>
+
+    <arg name="forw_pointcloud"     default="/forw_camera/depth/points"/>
+    
+    <node name="open3d_ros_node" pkg="open3d_ros" type="open3d_ros_node" output="screen" >
+        <param name="cloud_topic"  value="$(arg forw_pointcloud)"/>
+    </node>
+
+</launch>
