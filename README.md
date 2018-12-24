@@ -1,6 +1,4 @@
 # Open3d_ROS
-
-## About repo
 This repository provide ROS integration with Intel(R) Open3D pointcloud library for further processing.
 
 ## How to use
